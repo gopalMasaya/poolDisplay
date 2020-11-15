@@ -89,8 +89,14 @@ void draw(){
   text("RH",width*0.5+((height*0.13)),height*0.4);
   
   
+  
+  
    fill(10,160,10);textSize(height*0.1);
-  text(int(temp)+"óC",width*0.84,height*0.4);
+  text(int(temp),width*0.84,height*0.5);//+"óC"
+  text("c",width*0.93,height*0.4);
+  stroke(10,160,10);
+  noFill();strokeWeight(3); ellipse(width*0.9,height*0.35,15,15);
+  
   
  
  

@@ -17,7 +17,18 @@ steps for automation of raspberry pi
   disable screen saver
   sudo apt-install xscreensaver
   
-  serial port  /dev/ttyACM0
+  name: serial port  /dev/ttyACM0
   
-  create a udev rule goto:  https://www.pjrc.com/teensy/49-teensy.rules
+  Creating Udevrule
+  
+   goto:  https://www.pjrc.com/teensy/49-teensy.rules
+  or:
+ 1 download arduino IDE
+ 2 cd then ./install.sh
+ 3 git clone https://github.com/cmcmurrough/cse2100
+ 4 cd cse2100
+ 5 cd teensy
+ 6 sudo sh install install_teensyduino.sh
+ 
+ 
   
